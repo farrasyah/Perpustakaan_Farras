@@ -11,7 +11,6 @@ Aplikasi web berbasis Laravel dan Filament untuk mengelola koleksi buku, anggota
 5. [Dokumentasi Fungsi / Prosedur](#dokumentasi-fungsi--prosedur)
 6. [Debugging](#debugging)
 7. [Laporan Evaluasi](#laporan-evaluasi)
-8. [Lisensi](#lisensi)
 
 ## Teknologi
 
@@ -321,7 +320,6 @@ Membangun aplikasi Laravel untuk mengelola data buku dan transaksi peminjaman di
 ### Kendala
 
 - Tabel `loans` harus dibuat setelah `users` dan `books`. Hal ini sudah diatasi dengan memberi timestamp migration `loans` yang paling baru.
-<!-- Tambahkan kendala lain yang benar-benar Anda alami selama mengerjakan proyek ini. -->
 
 ### Kekurangan
 
@@ -347,5 +345,3 @@ Membangun aplikasi Laravel untuk mengelola data buku dan transaksi peminjaman di
 ### Kesimpulan
 
 Fitur utama aplikasi sudah berjalan, mulai dari pengelolaan buku dan anggota, peminjaman dan pengembalian dengan stok otomatis, denda keterlambatan, sampai pembatasan akses berdasarkan peran. Tahap berikutnya adalah memperkuat keandalan lewat transaksi database, enum, dan pengujian.
-
-## Lisensi
